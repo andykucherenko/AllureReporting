@@ -30,7 +30,7 @@ public class DataGenerator {
             "Псков", "Ростов-на-Дону", "Рязань", "Самара", "Саратов", "Южно-Сахалинск", "Екатеринбург", "Смоленск",
             "Тамбов", "Тверь", "Томск", "Тула", "Тюмень", "Ульяновск", "Челябинск", "Ярославль", "Москва",
             "Санкт-Петербург", "Севастополь", "Биробиджан", "Нарьян-Мар", "Ханты-Мансийск", "Анадырь", "Салехард"};
-    return citiesAdministrativeCenters[random.nextInt(85)];
+    return citiesAdministrativeCenters[random.nextInt(citiesAdministrativeCenters.length)];
   }
 
   public static String generateName(String locale) {
